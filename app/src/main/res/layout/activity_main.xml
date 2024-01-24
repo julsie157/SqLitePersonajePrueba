@@ -1,0 +1,89 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nombre" />
+    <EditText
+        android:id="@+id/pesoMochila"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PesoMochila" />
+
+    <EditText
+        android:id="@+id/estadoVital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="estadoVital" />
+
+    <EditText
+        android:id="@+id/pesoClase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="clase" />
+
+    <EditText
+        android:id="@+id/raza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="raza" />
+
+    <TextView
+        android:id="@+id/nombreRec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nombreRec" />
+
+    <TextView
+        android:id="@+id/pesoMochilaRec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="pesoMochila" />
+
+    <TextView
+        android:id="@+id/estadoVitalRec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="estadoVital" />
+
+    <TextView
+        android:id="@+id/claseRec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="claseRec" />
+
+    <TextView
+        android:id="@+id/razaRec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="razaRec" />
+
+    <Button
+        android:id="@+id/btnGuardarPersoanje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Guardar" />
+
+    <Button
+        android:id="@+id/btnRecuperarpersonaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Recuperar" />
+
+    <EditText
+        android:id="@+id/selectorPersonaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="selectorPersonaje"
+        android:inputType="text" />
+
+</LinearLayout>
